@@ -8,10 +8,10 @@ defmodule Matrix do
   end
 
   @spec get(Matrix.t(), integer(), integer()) :: integer() | nil
-  def get(%Matrix{mtrx: mtr}, row, col) do
+  def get(%Matrix{}, row, col) do
   end
 
-  @spec index_of(Matrix.t(), integer()) :: {integer(), integer()} | {nil, nil}
-  def index_of(%Matrix{mtrx: mtrx, col_length: col_size, row_length: row_size}, target_num) do
+  @spec index_of(Matrix.t(), integer()) :: any()
+  def index_of(%Matrix{}, target_num) do
   end
 end
